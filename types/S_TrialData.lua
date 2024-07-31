@@ -1,0 +1,14 @@
+---@meta
+
+---@class FS_TrialData
+---@field LevelName_20_454FDE0249F191AC18DABFAEF37DEAD5 FName
+---@field LevelRef_14_4A76BB25485CB72E29C247BA1A37A225 FSoftObjectPath
+---@field Class_8_6D66E21B4BC896B07E41A281B3C24B02 UCDPlayableClassDefinition
+---@field Times_22_E144A54E484AE1D65B97B4A922139698 TArray<float>
+---@field UnlockContition_30_33F602164DA30B51FF8878AB32E56819 FName
+---@field bUsesCustomLoadout_27_0E0EC4874FF14E7B4AD26D857643C9F6 boolean
+---@field Loadout_25_A82FD9244404AE4047C7709CEE7880BE FCDLoadoutDef
+FS_TrialData = {}
+
+
+

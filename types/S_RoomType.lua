@@ -1,0 +1,10 @@
+---@meta
+
+---@class FS_RoomType
+---@field Label_2_4E17F81944B65EDD25F97487F7EECE81 FText
+---@field Icon_5_1C1940F34762E605CCBDC18222E441BB UTexture2D
+---@field Color_8_D33015094A68E0E2453B63BDFFCBF2F9 FLinearColor
+FS_RoomType = {}
+
+
+

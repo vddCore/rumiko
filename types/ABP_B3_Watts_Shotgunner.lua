@@ -1,0 +1,75 @@
+---@meta
+
+---@class UABP_B3_Watts_Shotgunner_C : UCDAIAnimInstance
+---@field UberGraphFrame FPointerToUberGraphFrame
+---@field AnimGraphNode_Slot_2 FAnimNode_Slot
+---@field AnimGraphNode_LocalToComponentSpace_1 FAnimNode_ConvertLocalToComponentSpace
+---@field AnimGraphNode_PowerIK_Ground FAnimNode_PowerIK_Ground
+---@field AnimGraphNode_ComponentToLocalSpace_1 FAnimNode_ConvertComponentToLocalSpace
+---@field AnimGraphNode_Slot_1 FAnimNode_Slot
+---@field AnimGraphNode_Slot FAnimNode_Slot
+---@field AnimGraphNode_TransitionResult_7 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_6 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_5 FAnimNode_TransitionResult
+---@field AnimGraphNode_SequencePlayer_9 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_8 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer_8 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_7 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer_7 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_6 FAnimNode_StateResult
+---@field AnimGraphNode_StateMachine_3 FAnimNode_StateMachine
+---@field AnimGraphNode_BlendListByBool_3 FAnimNode_BlendListByBool
+---@field AnimGraphNode_BlendListByBool_2 FAnimNode_BlendListByBool
+---@field AnimGraphNode_TransitionResult_4 FAnimNode_TransitionResult
+---@field AnimGraphNode_SequencePlayer_6 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_5 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer_5 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_4 FAnimNode_StateResult
+---@field AnimGraphNode_StateMachine_2 FAnimNode_StateMachine
+---@field AnimGraphNode_BlendListByBool_1 FAnimNode_BlendListByBool
+---@field AnimGraphNode_TransitionResult_3 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_2 FAnimNode_TransitionResult
+---@field AnimGraphNode_SequencePlayer_4 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_3 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer_3 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_2 FAnimNode_StateResult
+---@field AnimGraphNode_StateMachine_1 FAnimNode_StateMachine
+---@field AnimGraphNode_LookAt_2 FAnimNode_LookAt
+---@field AnimGraphNode_LocalToComponentSpace FAnimNode_ConvertLocalToComponentSpace
+---@field AnimGraphNode_TransitionResult_1 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult FAnimNode_TransitionResult
+---@field AnimGraphNode_SequencePlayer_2 FAnimNode_SequencePlayer
+---@field AnimGraphNode_SequencePlayer_1 FAnimNode_SequencePlayer
+---@field AnimGraphNode_BlendListByBool FAnimNode_BlendListByBool
+---@field AnimGraphNode_StateResult_1 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult FAnimNode_StateResult
+---@field AnimGraphNode_StateMachine FAnimNode_StateMachine
+---@field AnimGraphNode_LookAt_1 FAnimNode_LookAt
+---@field AnimGraphNode_ComponentToLocalSpace FAnimNode_ConvertComponentToLocalSpace
+---@field AnimGraphNode_LookAt FAnimNode_LookAt
+---@field AnimGraphNode_Root FAnimNode_Root
+---@field LookAtLocation FVector
+---@field Pawn ACDAICharacter
+---@field ['Delta Time X'] float
+---@field LookAtRotation FRotator
+UABP_B3_Watts_Shotgunner_C = {}
+
+---@param AnimGraph FPoseLink
+function UABP_B3_Watts_Shotgunner_C:AnimGraph(AnimGraph) end
+---@param Controller AAIController
+---@return FRotator
+function UABP_B3_Watts_Shotgunner_C:CalcLookAtRotation(Controller) end
+function UABP_B3_Watts_Shotgunner_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_B3_Watts_Shotgunner_AnimGraphNode_PowerIK_Ground_E1DAEC16459ED862E6A3D48BE4347881() end
+function UABP_B3_Watts_Shotgunner_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_B3_Watts_Shotgunner_AnimGraphNode_SequencePlayer_93EFEAD646589B269D6E4CA3A3F8CB4E() end
+function UABP_B3_Watts_Shotgunner_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_B3_Watts_Shotgunner_AnimGraphNode_TransitionResult_2DE7CF3B4D285097EEF4F8BCAEB70A45() end
+function UABP_B3_Watts_Shotgunner_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_B3_Watts_Shotgunner_AnimGraphNode_TransitionResult_A8D4819844634B396F0E37BE67BF912A() end
+function UABP_B3_Watts_Shotgunner_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_B3_Watts_Shotgunner_AnimGraphNode_SequencePlayer_2CB368DA436C9C9541B266A756157BBB() end
+function UABP_B3_Watts_Shotgunner_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_B3_Watts_Shotgunner_AnimGraphNode_TransitionResult_439DA0FD4E852E16E35EF3AF34FD5710() end
+function UABP_B3_Watts_Shotgunner_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_B3_Watts_Shotgunner_AnimGraphNode_TransitionResult_0DA9BB8D4CC0353205B206AB55552358() end
+---@param DeltaTimeX float
+function UABP_B3_Watts_Shotgunner_C:BlueprintUpdateAnimation(DeltaTimeX) end
+---@param EntryPoint int32
+function UABP_B3_Watts_Shotgunner_C:ExecuteUbergraph_ABP_B3_Watts_Shotgunner(EntryPoint) end
+
+

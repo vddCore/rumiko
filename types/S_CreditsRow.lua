@@ -1,0 +1,11 @@
+---@meta
+
+---@class FS_CreditsRow
+---@field FullName_14_6852F1B94F25E2B32B73D982FB7804B6 FString
+---@field FullName_Localized_13_C55225EA4F9B075DBD10CDA8D8A94F8D FText
+---@field Position_4_F3E9C96944618C00D7F64984BF5CBD69 FText
+---@field Marker_10_5E0A92334062B566209029BFD42E2885 FString
+FS_CreditsRow = {}
+
+
+

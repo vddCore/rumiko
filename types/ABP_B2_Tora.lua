@@ -1,0 +1,74 @@
+---@meta
+
+---@class UABP_B2_Tora_C : UCDAIAnimInstance
+---@field UberGraphFrame FPointerToUberGraphFrame
+---@field AnimGraphNode_Root FAnimNode_Root
+---@field AnimGraphNode_TransitionResult_12 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_11 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_10 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_9 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_8 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_7 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_6 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_5 FAnimNode_TransitionResult
+---@field AnimGraphNode_SequencePlayer_11 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_11 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer_10 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_10 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer_9 FAnimNode_SequencePlayer
+---@field AnimGraphNode_BlendListByBool_3 FAnimNode_BlendListByBool
+---@field AnimGraphNode_SequencePlayer_8 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_9 FAnimNode_StateResult
+---@field AnimGraphNode_StateMachine_4 FAnimNode_StateMachine
+---@field AnimGraphNode_StateResult_8 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer_7 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_7 FAnimNode_StateResult
+---@field AnimGraphNode_StateMachine_3 FAnimNode_StateMachine
+---@field AnimGraphNode_Slot_2 FAnimNode_Slot
+---@field AnimGraphNode_LayeredBoneBlend FAnimNode_LayeredBoneBlend
+---@field AnimGraphNode_SaveCachedPose FAnimNode_SaveCachedPose
+---@field AnimGraphNode_UseCachedPose_1 FAnimNode_UseCachedPose
+---@field AnimGraphNode_UseCachedPose FAnimNode_UseCachedPose
+---@field AnimGraphNode_Slot_1 FAnimNode_Slot
+---@field AnimGraphNode_Slot FAnimNode_Slot
+---@field AnimGraphNode_TransitionResult_4 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_3 FAnimNode_TransitionResult
+---@field AnimGraphNode_SequencePlayer_6 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_6 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer_5 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_5 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer_4 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_4 FAnimNode_StateResult
+---@field AnimGraphNode_StateMachine_2 FAnimNode_StateMachine
+---@field AnimGraphNode_BlendListByBool_2 FAnimNode_BlendListByBool
+---@field AnimGraphNode_BlendListByBool_1 FAnimNode_BlendListByBool
+---@field AnimGraphNode_TransitionResult_2 FAnimNode_TransitionResult
+---@field AnimGraphNode_SequencePlayer_3 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_3 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer_2 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_2 FAnimNode_StateResult
+---@field AnimGraphNode_StateMachine_1 FAnimNode_StateMachine
+---@field AnimGraphNode_BlendListByBool FAnimNode_BlendListByBool
+---@field AnimGraphNode_TransitionResult_1 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult FAnimNode_TransitionResult
+---@field AnimGraphNode_SequencePlayer_1 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_1 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult FAnimNode_StateResult
+---@field AnimGraphNode_StateMachine FAnimNode_StateMachine
+---@field Pawn ACDAICharacter
+---@field Turn_L boolean
+---@field Turn_R boolean
+UABP_B2_Tora_C = {}
+
+---@param AnimGraph FPoseLink
+function UABP_B2_Tora_C:AnimGraph(AnimGraph) end
+function UABP_B2_Tora_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_B2_Tora_AnimGraphNode_SequencePlayer_7B208601491C7F4D60FB2B8F0E66644F() end
+function UABP_B2_Tora_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_B2_Tora_AnimGraphNode_TransitionResult_E812483E4AC6DF3B644CA9B631AF53E1() end
+function UABP_B2_Tora_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_B2_Tora_AnimGraphNode_SequencePlayer_79CC1B01432DB3F60FF9C5A10D64486E() end
+---@param DeltaTimeX float
+function UABP_B2_Tora_C:BlueprintUpdateAnimation(DeltaTimeX) end
+---@param EntryPoint int32
+function UABP_B2_Tora_C:ExecuteUbergraph_ABP_B2_Tora(EntryPoint) end
+
+
