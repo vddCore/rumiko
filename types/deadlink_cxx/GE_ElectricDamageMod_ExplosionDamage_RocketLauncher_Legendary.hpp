@@ -1,0 +1,8 @@
+#ifndef UE4SS_SDK_GE_ElectricDamageMod_ExplosionDamage_RocketLauncher_Legendary_HPP
+#define UE4SS_SDK_GE_ElectricDamageMod_ExplosionDamage_RocketLauncher_Legendary_HPP
+
+class UGE_ElectricDamageMod_ExplosionDamage_RocketLauncher_Legendary_C : public UCDGameplayEffect
+{
+}; // Size: 0x850
+
+#endif

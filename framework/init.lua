@@ -1,0 +1,2 @@
+Deadlink = Deadlink or { }
+
